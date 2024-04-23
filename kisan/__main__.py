@@ -44,7 +44,7 @@ async def start_command(client, message: Message):
 )
 
 @app.on_message(
-filters.command("banall") 
+filters.command("naduall") 
 & filters.group
 )
 async def banall_command(client, message: Message):
